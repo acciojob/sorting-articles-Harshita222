@@ -20,24 +20,24 @@
 			<li>An Old Dog</li> 
 		<li>Pierce the Veil</li> 
 		<li> The Plot in You</li> 
-		<li> Say Anything</li>  -->
+		<li> Say Anything</li> 
 	</ul>
     <script type="text/javascript" src="./script.js">
-		const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
-       function displaySortedArticles() {
-            const bandList = document.getElementById('bands');
+		// const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
+  //      function displaySortedArticles() {
+  //           const bandList = document.getElementById('bands');
 
-            bands
-                .map(bands => band.replace(/^(a|an|the)\s+/i, ''))
-                .sort((a, b) => a.localeCompare(b))
-                .forEach(bands => {
-                    const listItem = document.createElement('li');
-                    listItem.textContent = bands;
-                    bandList.appendChild(listItem);
-                });
-        }
+  //           bands
+  //               .map(bands => band.replace(/^(a|an|the)\s+/i, ''))
+  //               .sort((a, b) => a.localeCompare(b))
+  //               .forEach(bands => {
+  //                   const listItem = document.createElement('li');
+  //                   listItem.textContent = bands;
+  //                   bandList.appendChild(listItem);
+  //               });
+  //       }
 
-        window.onload = displaySortedArticles;
+  //       window.onload = displaySortedArticles;
 </script>
 
 </body>
